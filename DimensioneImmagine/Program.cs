@@ -6,7 +6,7 @@ namespace DimensioneImmagine
     {
         static void Main(string[] args)
         {
-            double bianconero, menocolori, piucolori, truecolor;
+            double bianconero, menocolori, piucolori,truecolor;
             Console.WriteLine("\n Bianco nero, 256 colori, 65000 colori, true color");
             Console.WriteLine("inserisci la dimensione verticale dell'immagine di cui vuoi sapere la dimensione");
             double dimmaginev = Convert.ToDouble(Console.ReadLine());
